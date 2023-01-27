@@ -1,0 +1,861 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: 'Manuale', serif;
+  background-color: #1C1A1A;
+  overflow-x: hidden;
+}
+
+.principal-header {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  align-items: center;
+  background-color: #1C1A1A;
+  position: sticky;
+  top: 0;
+  height: max-content;
+  overflow: hidden;
+}
+
+/* LOGO */
+.img1 {
+  height: 80px;
+  position: absolute;
+  left: 1rem;
+}
+
+#menu {
+  width: 100%;
+  display: none;
+}
+
+#menu li {
+  display: flex;
+  justify-content: center;
+}
+
+/* menu continuo*/
+
+
+
+/* transicion */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 500ms;
+
+}
+
+/* para agregar color al seleccionado */
+.topnav a:hover {
+  background-color: #D17A22;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+/* LINEA BLANCA */
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+/* icono bandera de argentina*/
+.argentina {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-top: 12px;
+
+}
+/* carrito de compras */
+.fa-sharp{
+  color: white;
+  height: 40px;
+  width: 70px;
+  margin-left: 20px;
+  margin-top: 16px;
+  font-size: 23px;
+  
+  
+}
+
+
+/* comienzo del main*/
+/* foto principal + texto*/
+.imagenprincipal {
+  height: 100%;
+  width: 100%;
+}
+
+.contenedor {
+  background-image: url('../fotos/imagen\ principal.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.texto-banner {
+  width: 50%;
+  font-family: 'Manuale', serif;
+  font-size: 100px;
+  color: #ffffff;
+}
+
+/* imagenes productos*/
+
+/* productos*/
+.imagenesproductos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.parrillauno {
+  width: 100%;
+  height: 100%;
+}
+
+.settenedores {
+  width: 100%;
+  height: 100%;
+}
+
+.tablados {
+  width: 100%;
+  height: 100%;
+}
+
+/* cuadrado con sus parrafos*/
+.divpadre {
+  display: flex;
+  justify-content: space-around;
+}
+
+.parrillas {
+  background-color: #1C1A1A;
+  width: 20%;
+  height: 50%;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Manuale', serif;
+  color: #ffffff;
+}
+
+.tenedores {
+  background-color: #1C1A1A;
+  width: 20%;
+  height: 50%;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Manuale', serif;
+  color: #ffffff;
+
+}
+
+.tablas {
+  background-color: #1C1A1A;
+  width: 20%;
+  height: 50%;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Manuale', serif;
+  color: #ffffff;
+}
+
+/* ver mas */
+.ver-mas{
+  text-decoration: none;
+  color: #D17A22;
+}
+
+
+
+.menu-hamburguesa {
+  display: none;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.title p {
+  padding: 0 1rem;
+  font-size: 200%;
+  text-align: center;
+  color: #D17A22;
+  font-family: 'Manuale', serif;
+}
+
+.title hr {
+  width: 50%;
+}
+/*REDES SOCIALES*/
+
+  .redessociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 2%;
+  
+}
+.fa-brands{
+  color: #ffffff;
+}
+
+#ultimalinea{
+  margin-top: 5%;
+}
+
+
+ 
+
+.ultimoparrafo {
+  color: #D17A22;
+  font-size: 20px;
+  font-family: 'Manuale', serif;
+  text-align: end;
+  
+
+}
+#ig{
+  color: #D17A22;
+}
+#ultimoparrafo{
+  color: #D17A22;
+  margin-right: 2%;
+}
+
+
+
+
+
+/* estilo de CONTACTOS body*/
+.mensaje-contacto{
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Manuale', serif;
+  text-align: center;
+  
+  
+
+}
+.formulario{
+  font-size: 20px;
+  font-family: 'Manuale', serif;
+  text-align: center;
+  color: #D17A22;
+  margin-left: 2%;
+ 
+
+}
+
+.completar-form{
+  width: 95%;
+  font-size: 20px;
+  font-family: 'Manuale', serif;
+  margin-left: 2%;
+  margin-top: 1%;
+  
+}
+.enviar-form{
+  font-size: 20px;
+  font-family: 'Manuale', serif;
+  text-align: center;
+  margin-left: 2%;
+  color: black;
+  width: 100px;
+  
+}
+/* comienzo de quienes somos*/
+.primer-mensaje{
+  font-size: 25px;
+  font-family: 'Manuale', serif;
+  text-align: center;
+  color: #ffffff;
+
+
+}
+.segundo-mensaje{
+  font-size: 25px;
+  font-family: 'Manuale', serif;
+  text-align: center;
+  color: #D17A22;
+
+}
+.tercer-mensaje{
+  font-family: 'Limelight', cursive;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+
+}
+.cuarto-mensaje{
+  font-size: 25px;
+  font-family: 'Manuale', serif;
+  text-align: center;
+  color: #ffffff;
+
+}
+.quinto-mensaje{
+  font-size: 25px;
+  font-family: 'Manuale', serif;
+  text-align: center;
+  color: #ffffff;
+
+}
+/* COMIENZO DE SET CUCHILLO TENEDOR*/
+.imagenesvariedad {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+
+.cuchillo {
+  width: 100%;
+  height: 100%;
+}
+
+
+.cuchillos {
+  background-color: #1C1A1A;
+  width: 20%;
+  height: 50%;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Manuale', serif;
+  color: #ffffff;
+}
+.imagenesset{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+
+}
+
+/* ver mas */
+.comprar{
+  color: #D17A22;
+}
+/* comienzo de COMIDAS */
+.mensaje-uno{
+  font-size: 20px;
+  font-family: 'Manuale', serif;
+  text-align: center;
+  color: #ffffff;
+
+}
+.mensaje-dos{
+  font-size: 30px;
+  font-family: 'Limelight', cursive;
+  text-align: center;
+  color: #ffffff;
+
+}
+.mensaje-tres{
+  font-size: 20px;
+  font-family: 'Manuale', serif;
+  text-align: center;
+  color: #D17A22;
+
+}
+.presentacion-lucas{
+  display: flex;
+  padding: 0 2rem;
+  justify-content: left;
+  margin-top: 3%;
+}
+.presentacion-lucas img{
+  width: 20%;
+  height: 25%;
+}
+.presentacion-lucas p{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Manuale', serif;
+  color: #ffffff;
+  margin-top: 10%;
+  margin: auto;
+}
+.comidasuno{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+  
+   
+}
+.comidasdos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+  
+   
+}
+.parrillacompleta{
+  height: 50%;
+  width: 20%;
+}
+.praparrilla{
+  height: 50%;
+  width: 20%;
+}
+
+
+.leyenda{
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+
+@media (max-width: 1300px) {
+  .texto-banner {
+    font-size: 50px;
+    width: 100%;
+
+  }
+
+  .img1 {
+    position: static;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  .principal-header {
+    padding: 1rem 1rem;
+  }
+
+  .menu-hamburguesa {
+    position: absolute;
+    right: 1rem;
+    top: 2.55rem;
+    cursor: pointer;
+    display: block;
+  }
+
+  .principal-header {
+    flex-direction: column;
+  }
+
+  #menu {
+    display: block;
+  }
+  .presentacion-lucas{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .presentacion-lucas img{
+    width: 40%;
+    height: 35%;
+    margin: auto;
+  }
+  .presentacion-lucas p{
+    margin-top: 2%;
+  }
+  .comidasuno{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    
+     
+  }
+  .comidasdos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    
+     
+  }
+  .parrillacompleta{
+    height: 50%;
+    width: 20%;
+  }
+  .praparrilla{
+    height: 50%;
+    width: 20%;
+  }
+  
+  
+  .leyenda{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+  /*REDES SOCIALES*/
+
+  .redessociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 2%;
+  
+}
+.fa-brands{
+  color: #ffffff;
+}
+
+#ultimalinea{
+  margin-top: 5%;
+}
+
+
+ 
+
+.ultimoparrafo {
+  color: #D17A22;
+  font-size: 20px;
+  font-family: 'Manuale', serif;
+  text-align: end;
+  
+
+}
+#ig{
+  color: #D17A22;
+}
+#ultimoparrafo{
+  color: #D17A22;
+  margin-right: 2%;
+}
+
+
+  
+    
+
+
+
+
+
+
+}
+
+@media (max-width: 1180px) {
+  /* LOGO*/
+  .img1 {
+    height: 100px;
+    position: absolute;
+    left: 1rem;
+  }
+
+  .texto-banner {
+    font-size: 80px;
+    width: 100%;
+
+  }
+
+  .img1 {
+    position: static;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  .principal-header {
+    padding: 1rem 1rem;
+  }
+
+  .menu-hamburguesa {
+    position: absolute;
+    right: 1rem;
+    top: 2.55rem;
+    cursor: pointer;
+    display: block;
+  }
+
+  .principal-header {
+    flex-direction: column;
+  }
+  .texto-banner {
+    font-size: 70px;
+    
+
+  }
+
+  #menu {
+    display: block;
+  }
+  .presentacion-lucas{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .presentacion-lucas img{
+    width: 40%;
+    height: 35%;
+    margin: auto;
+  }
+  .presentacion-lucas p{
+    margin-top: 2%;
+  }
+  /* COMIENZO DE PRODUCTOS*/
+  .imagenesproductos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  
+  .title {
+    font-size: 20px;
+  }
+  .imagenesproductos .parrillas{
+    height: 60%;
+    width: 80%;
+  }
+
+  .imagenesproductos .tenedores{
+    height: 60%;
+    width: 80%;
+    margin-top: 5%;
+  }
+
+  .imagenesproductos .tablas{
+    height: 60%;
+    width: 80%;
+    margin-top: 5%;
+  }
+
+  .leyenda{
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .ver-mas{
+    font-size: 30px;
+  }
+
+  /* COMIDAS*/
+  .comidasuno{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    
+     
+  }
+  .comidasdos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    
+     
+  }
+  .parrillacompleta{
+    height: 50%;
+    width: 20%;
+  }
+  .praparrilla{
+    height: 50%;
+    width: 20%;
+  }
+  
+  
+  .leyenda{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+  /*REDES SOCIALES*/
+
+  .redessociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 2%;
+  
+}
+.fa-brands{
+  color: #ffffff;
+}
+
+#ultimalinea{
+  margin-top: 5%;
+}
+
+
+ 
+
+.ultimoparrafo {
+  color: #D17A22;
+  font-size: 20px;
+  font-family: 'Manuale', serif;
+  text-align: end;
+  
+
+}
+#ig{
+  color: #D17A22;
+}
+#ultimoparrafo{
+  color: #D17A22;
+  margin-right: 2%;
+}
+  
+  
+
+
+
+  
+
+  }
+
+
+@media (max-width: 667px){
+  /* COMIDAS*/
+
+
+  /*FOTO DE LUCAS*/
+  .presentacion-lucas img{
+    width: 70%;
+    height: 30%;
+  }
+  .comidasuno{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin-top: 5%;
+    
+     
+  }
+  .comidasdos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    
+     
+  }
+  .parrillacompleta{
+    height: 80%;
+    width: 60%;
+    margin-top: 5%;
+  }
+  .praparrilla{
+    height: 80%;
+    width: 60%;
+    
+  }
+  
+  
+  .leyenda{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  /* COMIENZO DE SET CUCHILLO TENEDOR*/
+.imagenesvariedad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+}
+
+
+
+.cuchillos {
+  background-color: #1C1A1A;
+  width: 80%;
+  height: 60%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Manuale', serif;
+  color: #ffffff;
+  margin-top: 6%;
+}
+.imagenesset{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+
+}
+
+/* ver mas */
+.comprar{
+  color: #D17A22;
+  
+}
+
+ 
+
+
+
+}
+
+
+  
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
